@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  & button {
+    font-size: 1.5rem;
+    padding: 0.2rem;
+  }
+}
+
+.year {
+  margin: 1rem 0.5rem 1rem 0;
+  display: inline-block;
+  & label {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  & option {
+    font-size: 1.5rem;
+  }
+  & select {
+    font-size: 1.5rem;
+  }
+}
+.month {
+  margin: 1rem 0.5rem 1rem 0;
+  display: inline-block;
+  & label {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  & option {
+    font-size: 1.5rem;
+  }
+  & select {
+    font-size: 1.5rem;
+  }
+}

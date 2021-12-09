@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  width: 80%;
+}
+.item img {
+  object-fit: cover;
+  height: 20rem;
+  width: 100%;
+  display: block;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  height: 20rem;
+}
+
+.container svg path {
+  fill: rgb(13, 2, 37);
+}
+.container time {
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container svg {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+}
